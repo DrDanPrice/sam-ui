@@ -9,7 +9,7 @@ export function categories(list) {
     {category: 'age', pretty_name: 'age', type: 'range', low: 0, high:120, factors:
       [{factorName:'low',factorColor:11},{factorName:'high',factorColor:10}],fnd:'',fnd_top_num:100,fnd_bottom_num:0,ScaleHeight:1,Mode:"Scatter"},
       //2
-    {category: 'disability', pretty_name: 'disability', type: 'factor', factors: [{factorName:'No Disabilities',factorColor:3},{factorName:'With One Type of Disability',factorColor:2},
+    {category: 'disability', pretty_name: 'Use ER', type: 'factor', factors: [{factorName:'No Disabilities',factorColor:3},{factorName:'With One Type of Disability',factorColor:2},
       {factorName:'With Two or More Types of Disabilities',factorColor:1}],fnd:'',ScaleHeight:1,Mode:"Scatter"},
       //3
     {category: 'educational_attainment', pretty_name: 'education', html_title: 'Self-reported highest level of education', type: 'factor',
@@ -32,12 +32,12 @@ export function categories(list) {
     {category: 'lowbirthweightbyrace', pretty_name: 'Hypertension and Preeclampsia', type: 'factor',
       factors: [{factorName:'yes',factorColor:5},{factorName:'no',factorColor:1}],fnd:'',ScaleHeight:1,Mode:"Scatter"},
       //8
-    {category: 'member', pretty_name: 'family member',
+    {category: 'member', pretty_name: 'H. pylori',
       html_title: 'Which person in family - householder is the person leading family and adult is an additional adult in the household', type: 'factor',
       factors: [{factorName:'Adult',factorColor:3},{factorName:'Child',factorColor:2},
           {factorName:'Householder',factorColor:1},{factorName:'Wife',factorColor:6}],fnd:'',ScaleHeight:1,Mode:"Scatter"},
       //9
-    {category: 'pregnant', pretty_name: 'Pregnant last year', type: 'factor',
+    {category: 'pregnant', pretty_name: 'Asthma', type: 'factor',
       factors: [{factorName:'yes',factorColor:5},{factorName:'no',factorColor:1}],fnd:'',ScaleHeight:1,Mode:"Scatter"},
       //10
     {category: 'quality_description', type: 'factor', pretty_name: 'HCAD house quality',
