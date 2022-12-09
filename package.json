@@ -9,7 +9,7 @@
     "bcrypt": "^3.0.4",
     "body-parser": "^1.18.3",
     "deck.gl": "^7.0.0-alpha.3",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "imports": "^1.0.0",
     "lodash": "^4.17.11",
     "lodash.debounce": "^4.0.8",
